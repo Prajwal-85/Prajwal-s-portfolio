@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prajwal | Full Stack Developer & Entrepreneur</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👨‍💻</text></svg>">
+</head>
+<body class="light-mode">
+    <!-- Theme Toggle -->
+    <div class="theme-toggle">
+        <button id="themeToggle" class="theme-btn">
+            <i class="fas fa-sun"></i>
+            <i class="fas fa-moon"></i>
+        </button>
+    </div>
+
+    <!-- Header & Navigation -->
+    <header id="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="#" class="logo"><i class="fas fa-code"></i>PRAJWAL</a>
+                <div class="menu-toggle" id="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#startup">Startup Ideas</a></li>
+                    <li><a href="#teaching">Teaching</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Hi, I'm <span class="highlight">Prajwal</span></h1>
+                <p>A passionate Full Stack Developer, Entrepreneur & Educator specializing in HTML, CSS, JavaScript, Python, and C. I create innovative solutions, share startup ideas, and teach aspiring developers.</p>
+                <div class="hero-btns">
+                    <a href="#skills" class="btn btn-primary">View My Skills</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <div class="section-title">
+                <h2>My Technical Skills</h2>
+                <p>I have expertise in multiple programming languages and frameworks to build complete solutions</p>
+            </div>
+            <div class="skills-container">
+                <div class="skill-card animate-on-scroll">
+                    <div class="skill-icon">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <h3>HTML5</h3>
+                    <p>Semantic markup, accessibility, modern HTML5 features, and SEO best practices.</p>
+                    <div class="skill-level">
+                        <div class="level-bar"><div class="level-fill" style="width: 95%"></div></div>
+                        <span>95%</span>
+                    </div>
+                </div>
+                <div class="skill-card animate-on-scroll">
+                    <div class="skill-icon">
+                        <i class="fab fa-css3-alt"></i>
+                    </div>
+                    <h3>CSS3</h3>
+                    <p>Responsive design, Flexbox, Grid, animations, and modern CSS frameworks.</p>
+                    <div class="skill-level">
+                        <div class="level-bar"><div class="level-fill" style="width: 90%"></div></div>
+                        <span>90%</span>
+                    </div>
+                </div>
+                <div class="skill-card animate-on-scroll">
+                    <div class="skill-icon">
+                        <i class="fab fa-js"></i>
+                    </div>
+                    <h3>JavaScript</h3>
+                    <p>ES6+, DOM manipulation, AJAX, APIs, and modern frameworks like React/Vue.</p>
+                    <div class="skill-level">
+                        <div class="level-bar"><div class="level-fill" style="width: 85%"></div></div>
+                        <span>85%</span>
+                    </div>
+                </div>
+                <div class="skill-card animate-on-scroll">
+                    <div class="skill-icon">
+                        <i class="fab fa-python"></i>
+                    </div>
+                    <h3>Python</h3>
+                    <p>Backend development, Django/Flask, data analysis, automation, and machine learning.</p>
+                    <div class="skill-level">
+                        <div class="level-bar"><div class="level-fill" style="width: 88%"></div></div>
+                        <span>88%</span>
+                    </div>
+                </div>
+                <div class="skill-card animate-on-scroll">
+                    <div class="skill-icon">
+                        <i class="fas fa-c"></i>
+                    </div>
+                    <h3>C Programming</h3>
+                    <p>System programming, algorithms, data structures, and low-level development.</p>
+                    <div class="skill-level">
+                        <div class="level-bar"><div class="level-fill" style="width: 82%"></div></div>
+                        <span>82%</span>
+                    </div>
+                </div>
+                <div class="skill-card animate-on-scroll">
+                    <div class="skill-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h3>Entrepreneurship</h3>
+                    <p>Startup ideation, business planning, market analysis, and product development.</p>
+                    <div class="skill-level">
+                        <div class="level-bar"><div class="level-fill" style="width: 80%"></div></div>
+                        <span>80%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Startup Ideas Section -->
+    <section id="startup" class="section-alt">
+        <div class="container">
+            <div class="section-title">
+                <h2>Startup Ideas & Business Concepts</h2>
+                <p>Innovative ideas that solve real-world problems with technology</p>
+            </div>
+            <div class="ideas-container">
+                <div class="idea-card animate-on-scroll">
+                    <div class="category tech">Tech</div>
+                    <h3>AI-Personalized Learning Platform</h3>
+                    <p>An adaptive learning system that customizes educational content based on individual student's pace, style, and performance metrics.</p>
+                    <div class="idea-tags">
+                        <span>AI/ML</span>
+                        <span>EdTech</span>
+                        <span>SaaS</span>
+                    </div>
+                    <button class="idea-details-btn">View Details</button>
+                </div>
+                <div class="idea-card animate-on-scroll">
+                    <div class="category sustainability">Sustainability</div>
+                    <h3>Smart Waste Management System</h3>
+                    <p>IoT-enabled bins with sensors that optimize waste collection routes, reduce costs, and increase recycling rates for municipalities.</p>
+                    <div class="idea-tags">
+                        <span>IoT</span>
+                        <span>Smart Cities</span>
+                        <span>Sustainability</span>
+                    </div>
+                    <button class="idea-details-btn">View Details</button>
+                </div>
+                <div class="idea-card animate-on-scroll">
+                    <div class="category health">HealthTech</div>
+                    <h3>Telemedicine for Remote Areas</h3>
+                    <p>A low-bandwidth telemedicine platform connecting doctors with patients in remote areas through mobile devices.</p>
+                    <div class="idea-tags">
+                        <span>Healthcare</span>
+                        <span>Mobile</span>
+                        <span>Social Impact</span>
+                    </div>
+                    <button class="idea-details-btn">View Details</button>
+                </div>
+                <div class="idea-card animate-on-scroll">
+                    <div class="category fintech">FinTech</div>
+                    <h3>Micro-Investment App for Beginners</h3>
+                    <p>Simplified investment platform allowing users to start with small amounts and learn investing through gamification.</p>
+                    <div class="idea-tags">
+                        <span>Finance</span>
+                        <span>Mobile App</span>
+                        <span>Education</span>
+                    </div>
+                    <button class="idea-details-btn">View Details</button>
+                </div>
+                <div class="idea-card animate-on-scroll">
+                    <div class="category ecommerce">E-commerce</div>
+                    <h3>AR Virtual Try-On for Online Shopping</h3>
+                    <p>Augmented Reality solution that lets customers try products (clothes, glasses, makeup) virtually before purchasing online.</p>
+                    <div class="idea-tags">
+                        <span>Augmented Reality</span>
+                        <span>E-commerce</span>
+                        <span>FashionTech</span>
+                    </div>
+                    <button class="idea-details-btn">View Details</button>
+                </div>
+                <div class="idea-card animate-on-scroll">
+                    <div class="category foodtech">FoodTech</div>
+                    <h3>Food Waste Reduction Marketplace</h3>
+                    <p>Platform connecting restaurants/grocers with consumers to sell surplus food at discounted prices, reducing waste.</p>
+                    <div class="idea-tags">
+                        <span>Sustainability</span>
+                        <span>Marketplace</span>
+                        <span>Social Enterprise</span>
+                    </div>
+                    <button class="idea-details-btn">View Details</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Teaching Section -->
+    <section id="teaching">
+        <div class="container">
+            <div class="section-title">
+                <h2>I Also Teach Programming</h2>
+                <p>Passionate about sharing knowledge and helping others learn to code</p>
+            </div>
+            <div class="teaching-content">
+                <div class="teaching-text animate-on-scroll">
+                    <h3>Want to learn programming?</h3>
+                    <p>I offer personalized tutoring and mentorship in various programming languages and technologies. Whether you're a complete beginner or looking to advance your skills, I can help you achieve your goals.</p>
+                    
+                    <ul class="teaching-list">
+                        <li><i class="fas fa-check-circle"></i> <strong>Personalized Learning Path:</strong> Customized curriculum based on your goals</li>
+                        <li><i class="fas fa-check-circle"></i> <strong>Project-Based Learning:</strong> Learn by building real-world projects</li>
+                        <li><i class="fas fa-check-circle"></i> <strong>Flexible Schedule:</strong> Sessions tailored to your availability</li>
+                        <li><i class="fas fa-check-circle"></i> <strong>Career Guidance:</strong> Advice on portfolio building and job search</li>
+                        <li><i class="fas fa-check-circle"></i> <strong>All Skill Levels:</strong> From beginner to advanced concepts</li>
+                    </ul>
+                    
+                    <p><strong>Subjects I teach:</strong> HTML/CSS, JavaScript, Python, C Programming, Web Development, Algorithms, Data Structures, and Startup Fundamentals.</p>
+                    
+                    <a href="#contact" class="btn btn-primary" style="margin-top: 20px;">Start Learning Today</a>
+                </div>
+                <div class="teaching-image animate-on-scroll">
+                    <div class="teaching-card">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                        <h3>Why Learn With Me?</h3>
+                        <div class="teaching-points">
+                            <p><i class="fas fa-check"></i> Industry-relevant curriculum</p>
+                            <p><i class="fas fa-check"></i> Practical, hands-on approach</p>
+                            <p><i class="fas fa-check"></i> Patient and supportive teaching style</p>
+                            <p><i class="fas fa-check"></i> Real-world project experience</p>
+                            <p><i class="fas fa-check"></i> Ongoing support and mentorship</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section-alt">
+        <div class="container">
+            <div class="section-title">
+                <h2>My Recent Projects</h2>
+                <p>Showcasing my skills through practical implementations</p>
+            </div>
+            <div class="projects-container">
+                <div class="project-card animate-on-scroll">
+                    <div class="project-img">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                        <span class="project-tag">Web Dev</span>
+                    </div>
+                    <div class="project-info">
+                        <h3>E-Learning Platform</h3>
+                        <p>Full-featured online learning platform with video courses, quizzes, and progress tracking.</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>Python</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card animate-on-scroll">
+                    <div class="project-img">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                        <span class="project-tag">Mobile App</span>
+                    </div>
+                    <div class="project-info">
+                        <h3>Task Management App</h3>
+                        <p>Productivity app with drag-drop interface, reminders, and team collaboration features.</p>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card animate-on-scroll">
+                    <div class="project-img">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                        <span class="project-tag">Data Analysis</span>
+                    </div>
+                    <div class="project-info">
+                        <h3>Sales Dashboard</h3>
+                        <p>Interactive dashboard for visualizing sales data with real-time updates and forecasting.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Pandas</span>
+                            <span>Chart.js</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Get In Touch</h2>
+                <p>Have a project in mind? Want to learn programming? Share startup ideas? Contact me!</p>
+            </div>
+            <div class="contact-container">
+                <div class="contact-info animate-on-scroll">
+                    <h3>Contact Information</h3>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>contact@prajwal.dev</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+1 (555) 123-4567</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Silicon Valley, CA</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>Availability</h4>
+                            <p>Mon - Fri: 9AM - 6PM PST</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <h4>Follow Me</h4>
+                        <div class="social-icons">
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-github"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form animate-on-scroll">
+                    <h3>Send Me a Message</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject *</label>
+                            <select id="subject" required>
+                                <option value="">Select a subject</option>
+                                <option value="project">Project Collaboration</option>
+                                <option value="teaching">Learning/Tutoring</option>
+                                <option value="startup">Startup Ideas</option>
+                                <option value="hire">Hire Me</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Your Message *</label>
+                            <textarea id="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <div class="footer-logo">PRAJWAL</div>
+                    <p>Full Stack Developer, Entrepreneur & Educator passionate about creating innovative solutions and sharing knowledge.</p>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#startup">Startup Ideas</a></li>
+                        <li><a href="#teaching">Teaching</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="#">Web Development</a></li>
+                        <li><a href="#">Programming Tutoring</a></li>
+                        <li><a href="#">Startup Consulting</a></li>
+                        <li><a href="#">Technical Mentorship</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe to get updates on new startup ideas and tech insights.</p>
+                    <form id="newsletterForm">
+                        <input type="email" placeholder="Your email address" required>
+                        <button type="submit" class="btn btn-primary">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; <span id="currentYear"></span> Prajwal. All Rights Reserved. | Designed with <i class="fas fa-heart"></i> by Prajwal</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+      </html>
